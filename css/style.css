@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+   list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+   line-height: 0.8;
+}
+
+/* All Common CSS End  */
+
+ /* Header Part Start */
+ .navbar-light .navbar-nav .nav-link {
+	color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 0;
+}
+.navbar-brand img{
+    width: 200px;
+}
+.nav-item{
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c7b299;
+}
+ /* Header Part End */
+
+ /* Banner Part Start */
+#banner{
+    
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_overly{
+    padding: 380px 0;
+    background: rgba(17, 17, 17, 0.70);
+}
+.banner_text{
+    color: #fff;
+}
+.banner_text h3{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.banner_text img{
+    width: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+}
+.banner_text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.banner_text a{
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 3px solid #736357;
+    padding: 21px 39px 18px 37px;
+    background: #046a90;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase;
+   
+}
+.img:hover{
+    background: #736357;
+}
+
+ /* Banner Part End */
+
+/* Service Part Start */
+#service{
+    padding: 90px 0;
+    background: linear-gradient(to right, #05698f , #243678);
+}
+.service_text p{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 70px;
+}
+/* .service_icon i{
+    padding-top: 30px;
+    font-size: 40px;
+    color: #fff;
+} */
+.service_icon{
+        background: #1b6f96;
+        position: relative;
+        height: 180px;
+        width: 180px;
+        border-radius: 50%; 
+        margin-top: 100px;
+        margin-bottom: 30px;
+        left: 80px;
+       
+}
+.service_icon i{
+    color: #fff;
+    font-size: 60px;
+    left: 60px;
+    top: 50%;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 999;
+   cursor: pointer;
+}
+.service_textt h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.service_textt p{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+.detail_btn a{
+    padding: 5px 30px;
+    background: #08638d;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+}
+.service_icon:hover{
+    background: #736357;
+}
+ /* Service Part End */
+
+  /* Product Part Start */
+#product{
+    padding: 80px 0;
+    background: #fff;
+}
+.product_text h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a1a1a;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.product_text p{
+    color: #848484;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding-bottom: 60px;
+}
+.product_item{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 30px;
+    position: relative;
+}
+.circle_r{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background: #203d7b;
+	left: 215px;
+}
+.circle_r_text h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    top: 50%;
+    line-height: 100px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.product_item img{
+    z-index: 999;
+    width: 100%;
+    border-radius: 50%;
+}
+.circle_text{
+    padding-top: 50px;
+}
+
+.circle_btn a{
+    padding: 5px 40px;
+    background: linear-gradient(to right, #036c91 , #243678);
+    color: #fff;
+    border: 1px solid #08638d;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+}
+.circle_text p{
+    color: #848484;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-top: 30px;
+}
+
+ /* Product Part End */
+
+  /* Discount Part Start */
+
+#discount{
+    padding-bottom: 30px;
+ 
+}
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+}
+.pro_pic_part{
+	height: 316px;
+	width: 550px;
+    position: relative;
+}
+ .pro_pic_part img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.pro_icon_img a {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	padding: 15px 4px;
+	color: rgba(24, 15, 197, 0.856);
+}
+
+.pro_icon_img i{
+    color: #1451c2de;
+    background: #fff;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.pic_text{
+    background: #036b90;
+    padding: 80px 0px;
+}
+
+.pic_part_text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 40px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.por_one h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    color: #fff;
+}
+.por_one p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+.por_one_pp h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #fff;
+}
+
+.por_one_pp p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.por_one a{
+    display: inline-block;
+    border: 1px solid#fff;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.bbb{
+    padding-bottom: 16px;
+}
+/* Discount part end */
+
+/* Footer part start */
+#footer{
+    background: #135285;
+    padding: 50px 0px;
+}
+.common_head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+.f_icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #c1d8e2;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 5px;
+}
+.f_icon i{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);  
+    color: #09628c;
+    position: absolute;
+   
+}
+.web_tem h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.web_tem p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    color: #fff;
+    line-height: 20px;
+    padding-top: 30px;
+    font-weight: 300;
+
+}
+.footer_two h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 300;
+
+}
+.footer_three h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+.footer_three h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 300;
+}
+.foter_last{
+    /* height: 150px;
+    width: 150px; */
+}
+
+/* Footer part end */
+
+
+           /* =================== */
+
+
+
+
+ /* Banner Part Start */
+ /* Banner Part End */
